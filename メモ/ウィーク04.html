@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テスト</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <main class="bg-zinc-500  mx-auto">
+
+ <!-- Flex: ヘッダーのリンクを横に並べる、プロフィールの画像+文章など -->
+ <nav class="flex gap-4">
+  <a href="#">Top</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+ </nav>
+
+ <!-- Grid: 商品カード、スキル一覧など「同じ形を繰り返す」 -->
+ <div class="grid grid-cols-3 gap-4">
+  <div>商品A</div>
+  <div>商品B</div>
+  <div>商品C</div>
+ </div>
+<div class="grid grid-cols-3 gap-4">
+  <div class="bg-white rounded shadow p-4 col-span-2">カード1</div>
+  <div class="bg-white rounded shadow p-4">カード2</div>
+  <div class="bg-white rounded shadow p-4">カード3</div>
+  <div class="bg-white rounded shadow p-4">カード4</div>
+  <div class="bg-white rounded shadow p-4">カード5</div>
+  <div class="bg-white rounded shadow p-4">カード6</div>
+ </div>
+ <div class="transition bg-white rounded shadow p-4 hover:shadow-lg hover:bg-gray-50 scale-105">
+  マウスを乗せると影が濃くなります
+</div>
+<ul>
+  <li class="odd:bg-white even:bg-gray-50 p-2">商品A</li>
+  <li class="odd:bg-white even:bg-gray-50 p-2">商品B</li>
+  <li class="odd:bg-white even:bg-gray-50 p-2">商品C</li>
+  <li class="odd:bg-white even:bg-gray-50 p-2">商品D</li>
+</ul>
+<section class="max-w-5xl mx-auto px-4 py-8">
+  <h2 class="text-2xl font-bold mb-6">最新記事</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <article class="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition">
+      <div class="bg-gray-200 h-40"></div>
+      <div class="p-4">
+        <h3 class="font-bold mb-1">記事タイトル1</h3>
+        <p class="text-gray-500 text-sm">2025年5月11日</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition">
+      <div class="bg-gray-200 h-40"></div>
+      <div class="p-4">
+        <h3 class="font-bold mb-1">記事タイトル2</h3>
+        <p class="text-gray-500 text-sm">2025年5月10日</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition">
+      <div class="bg-gray-200 h-40"></div>
+      <div class="p-4">
+        <h3 class="font-bold mb-1">記事タイトル3</h3>
+        <p class="text-gray-500 text-sm">2025年5月9日</p>
+      </div>
+    </article>
+  </div>
+</section>
+<div class="grid grid-cols-3 gap-2">
+  <div class="col-span-2 bg-gray-300 h-48 rounded"></div>
+  <div class="grid gap-2">
+    <div class="bg-gray-200 rounded"></div>
+    <div class="bg-gray-200 rounded"></div>
+  </div>
+</div>
+  </main>
+</html>
