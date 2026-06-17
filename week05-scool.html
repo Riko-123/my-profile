@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header  class="flex flex-col md:flex-row items-center md:justify-between left-0 w-full fixed z-50 top-0 shadow px-4 bg-white">
+        <h1 class="text-red-600 font-bold text-base mb-1">WESEDA</h1>
+        <nav class="flex gap-2">
+         <a href="#学校概要" class="text-gray-600 text-sm">学校概要</a>
+         <a class="text-gray-600 text-sm">交通アクセス</a>
+         <a class="text-gray-600 text-sm">募集要項</a>
+        </nav>
+    </header>
+    <main class="max-w-[90%] mt-24 mx-auto">
+        <section>
+         <h2 id=学校概要 class="py-2 text-3xl fobt-bold">学校概要</h2>
+         <div class="flex flex-col md:flex-row gap-2 md:gap-4">
+           <img class="w-full h-64 md:w-[1/2] object-cover" src="./img/校舎.png" alt="校舎">
+           <div class="text-gray-600 text-base gap-1">
+           <p>早稲田実業学校高等部は、早稲田大学の系属校です。</p>
+           <p>学業と部活動の両立を重視し、生徒の自主性や挑戦する姿勢を育てています。</p>
+           </div>
+         </div>
+        </section>
+         <section class="my-5">
+         <h2 id=交通アクセス class="py-2 text-3xl fobt-bold">交通アクセス</h2>
+         <div class="flex flex-col md:flex-row gap-2 md:gap-4">
+           <div class="text-gray-600 text-base gap-1">
+             <p>住所：〒185-8505 東京都国分寺市本町1-2-98</p>
+             <p>TEL：042-300-5151（代表）</p>
+             <p>交通：JR国分寺駅・西武線国分寺駅 北口より徒歩5分</p>
+           </div>
+            <img class="w-full h-64 md:w-[1/2] object-cover" src="./img/交通アクセス.png" alt="校舎">
+         </div>
+        </section>
+         <section>
+        <h3 id=募集要項 class="py-2 text-3xl fobt-bold">募集要項</h3>
+         <div class="grid grid-cols-1 md:grid-cols-3 my-5 gap-3">
+             <div class="bg-white shadow rounded-xl py-3">
+                <p class="text-center text-md my-2">初等部</p>
+                <img class="h-52 object-cover w-full" src="./img/初頭部.png" alt="初頭部">
+                <a href="https://www.wasedajg.ed.jp/elementary/exam-e/application-e/"class="hover:text-blue-500 my-2  transition hover:underline">詳細</a>
+             </div>
+             <div class="bg-white shadow rounded-xl py-3">
+                <p class="text-center text-md my-2">中等部</p>
+                <img class="h-52 object-cover w-full" src="./img/中等部.png" alt="中等部">
+                <a href="https://www.wasedajg.ed.jp/junior/exam-s/application-s/"class="hover:text-blue-500 my-2  transition hover:underline">詳細</a>
+             </div>
+             <div class="bg-white shadow rounded-xl py-3">
+                <p class="text-center text-md my-2">高等部</p>
+                <img class="h-52 object-cover w-full" src="./img/高等部.png" alt="高等部">
+                <a href="https://www.wasedajg.ed.jp/senior/exam-h/application-h/"class="hover:text-blue-500 my-2  transition hover:underline">詳細</a>
+             </div>
+         </div>
+        </section>
+        <section class="hidden md:block text-2xl font-bold text-red-900">裏口はこちら</section>
+    </main>
+    <footer class="bg-red-900 w-full h-24">
+        <p class="text-center text-white text-sm pt-16">@WESEDA</p>
+    </footer>
+</body>
+</html>
